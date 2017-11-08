@@ -26,10 +26,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array,element) {
   return array
 }
 function removeElementFromBeginningOfArray(array) {
-  return array.splice(1)
+  return array.slice(1)
 }
 function removeElementFromEndOfArray(array) {
-  return array.splice(-1)
+  return array.slice(-1)
 }
 function destructivelyRemoveElementFromEndOfArray(array,element) {
   array.shift(element)
